@@ -1,0 +1,15 @@
+from random import randrange
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
+
+
+SCREEN_WIDTH = 640
+SCREEN_HEIGHT = 400
+
+GRIDSIZE = 40
+GRIDFORFOOD = GRIDSIZE * 2
+GRID_WIDTH, GRID_HEIGHT = SCREEN_WIDTH/GRIDSIZE, SCREEN_HEIGHT/GRIDSIZE
+rnumber = randrange(0, SCREEN_WIDTH, 40)
+rnumber2 = randrange(0, SCREEN_HEIGHT, 40)
